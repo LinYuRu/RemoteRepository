@@ -26,7 +26,7 @@
 <input type='reset'      name='name' value='還原' ><br><br>	
 
 
-<a href='${pageContext.request.contextPath}/ch01/index.jsp'>回到會員管理</a>
+<a href="<c:url value='/ch01/index.jsp'/>">回到會員管理</a>
 </form>
 </div>
 </body>
